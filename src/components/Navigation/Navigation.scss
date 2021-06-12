@@ -1,0 +1,18 @@
+.navigation {
+  .nav {
+    margin: 2rem;
+    ul {
+      display: flex;
+      li {
+        a {
+          padding: 0px;
+          margin: 2rem;
+          background-color: blue;
+          border-radius: 2px;
+          font-weight: bold;
+          border: 1px black solid;
+        }
+      }
+    }
+  }
+}
