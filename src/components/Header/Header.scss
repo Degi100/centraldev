@@ -1,0 +1,24 @@
+@use '/src/variables' as v;
+
+ul {
+  display: flex;
+  li {
+    list-style: none;
+    a {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: left;
+      padding: v.$naviPadding;
+      margin: v.$naviMargin;
+      font-size: v.$naviFontSize;
+      text-decoration: none;
+    }
+    a:hover {
+      color: v.$naviHover;
+    }
+  }
+}
+
+.Navigation {
+  background-color: darkorange;
+}
