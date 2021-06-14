@@ -3,15 +3,16 @@
 *,
 *::after,
 *::before{
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
   box-sizing: inherit;
 }
 
-li{
-  list-style: none;
-}
+// li{
+//   list-style: none;
+// }
 
+<<<<<<< HEAD
 a{
   cursor: pointer;
   text-decoration: none;
@@ -23,10 +24,22 @@ a{
   flex-direction: column;
   align-items: center;
 }
+=======
+// a{
+//   cursor: pointer;
+//   text-decoration: none;
+//   color: #266ed8;
+// }
+// .App {
+//   text-align: center;
+//   justify-content: center;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+>>>>>>> 6111955d90b2ff209b6df9e9c27409554f247ad8
 
 body{
   background-color: darkgray;
-  color: rgb(255, 0, 0);
-  margin-top: 2rem;
-  font-size: 2rem;
+
 }

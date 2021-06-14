@@ -10,7 +10,7 @@ export const Header = () => {
         <ul>
           <li>
             <NavLink exact to="/">
-              Home
+              Home 
             </NavLink>
           </li>
           <li>

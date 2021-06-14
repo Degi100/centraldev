@@ -5,7 +5,6 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Header } from './components/Header/Header';
 
-
 import './App.scss';
 
 
