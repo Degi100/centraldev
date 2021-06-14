@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Header.scss";
 
 export const Header = () => {
+
+
   return (
-    <div className="Navigation">
-      <nav>
+    <div className="navigation">
+      <nav className="nav">
         <ul>
           <li>
             <NavLink exact to="/">
