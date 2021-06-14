@@ -1,18 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import '../pages/Home.scss';
-
-export const Home = () => {
-  return (
-    <>
-    <div>
-      <h2>Home</h2>
-    </div>
-    <div className="content">
-      Text
-    </div>
-    </>
-=======
 import "../index.scss";
 // import logo from "./logo.svg";
 
@@ -27,6 +13,5 @@ export const Home = () => {
         </p>
       </div>
     </div>
->>>>>>> 6111955d90b2ff209b6df9e9c27409554f247ad8
   );
 };
