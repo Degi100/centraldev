@@ -8,7 +8,7 @@ export const Home = () => {
       <div className="layer1">
         <h1>Home</h1>
         <p>
-          My first React Project.
+          My first React Project!
           {/* <img src={logo} alt="React Logo" /> */}
         </p>
       </div>
