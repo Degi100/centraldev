@@ -37,7 +37,7 @@ export const Home = () => {
               Degi:Dev
             </a>
             <a href="https://energycalc.netlify.app/" target="blank">
-              Engery Calculater
+              Energery Calculater
             </a>
           </li>
         </ul>
