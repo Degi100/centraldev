@@ -33,6 +33,9 @@ export const Home = () => {
             <a href="https://vimninja.netlify.app/" target="blank">
               VIM CSS Layout
             </a>
+            <a href="https://https://degidev.netlify.app/" target="blank">
+              Degi:Dev
+            </a>
             <a href="https://energycalc.netlify.app/" target="blank">
               Engery Calculater
             </a>
