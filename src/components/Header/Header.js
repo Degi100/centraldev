@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Header.scss';
+
+
 export const Header = () => {
-
-
   return (
     <div className="navigation">
       <nav className="nav">
@@ -21,6 +21,16 @@ export const Header = () => {
           <li>
             <NavLink exact to="/contact">
               Contact
+            </NavLink>
+          </li>          
+          <li>
+            <NavLink exact to="/news">
+              News
+            </NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/vim">
+              Vim
             </NavLink>
           </li>
         </ul>

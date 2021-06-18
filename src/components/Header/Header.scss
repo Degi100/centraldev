@@ -1,20 +1,26 @@
-.header {
-	.nav{
-	  margin: 2rem;
-	  ul {
-	    display: flex;
-	    li {
-	      a {
-		padding: 0.5.rem;
-		color: white;
-		margin: 2rem;
-		background-color: blue;
-		border-radius: 2px;
-		font-weight: bold;
-		border: 1px black solid;
-	      }
-	    }
-	  }
-	}
-      }
-      
+@use '../../variables' as v;
+
+//Navigationstyle
+ul {
+  display: flex;
+  li {
+    list-style: none;
+    a {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: left;
+      padding: v.$boxSpacingSmall;
+      margin: v.$boxSpacingSmall;
+      font-size: v.$defaultSize;
+      text-decoration: none;
+    }
+    a:hover {
+      color: v.$warningColor;
+    }
+  }
+}
+
+.navigation {
+  background-color: v.$secBGColor;
+  box-shadow: 5px 4px 4px black;
+}
