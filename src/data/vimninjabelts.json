@@ -1,0 +1,129 @@
+{
+  "white": [
+    {
+      "idCode": "enterAndExit",
+      "name": "Enter and Exit VIM",
+      "learnItems": "Commandline VIM and VSCode Plugin",
+      "youtube": "AMmYOrV7Z2Q"
+    },
+    {
+      "idCode": "normalAndInsertMode",
+      "name": "Normal and Insert Mode",
+      "learnItems": "i and ESC",
+      "youtube": "0OMG632mRzs"
+    },
+    {
+      "idCode": "basicMovements",
+      "name": "Basic Movements",
+      "learnItems": "h,j,k,l",
+      "youtube": "uv1QqEEk77M"
+    },
+    {
+      "idCode": "insertCommands",
+      "name": "Insert Commands",
+      "learnItems": "i, I, a, A, o, O",
+      "youtube": "aGgaqdJf-2U"
+    },
+
+
+     {
+        "title": "Replace Single Charater",
+        "command": "r",
+        "youTube": "https://www.youtube.com/watch?v=DczDS4hN0Zc&t=395s",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Enter replace mode",
+        "command": "R",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Join line below to current one with one space in between them",
+        "command": "J",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Join line below to current one with no spaces",
+        "command": "gJ",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Change (replace) entire line",
+        "command": "cc",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Change (replace) to the end of line",
+        "command": "C",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Change inner word",
+        "command": "ciw",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Change (replace) to end of word",
+        "command": "cw",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Delete character and substitute text",
+        "command": "s",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Dele line and substitute text",
+        "command": "S",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Transpose two letters",
+        "command": "xp",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Undo",
+        "command": "u",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Redo",
+        "command": "^r",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      },
+      {
+        "title": "Repeat last command",
+        "command": ".",
+        "tutorial": "zB. YT-Link",
+        "howto": "Javascript-game",
+        "show": true
+      }
+  ]
+}
+

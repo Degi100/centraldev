@@ -1,8 +1,16 @@
-$border: 1px black solid;
-$borderLayer: 1px orange solid;
-$boxShadow: 5px 5px 5px black;
+$boxSpacingNull: 0;
 
-$naviPadding: 1rem;
-$naviMargin: 0rem;
-$naviFontSize: 2rem;
-$naviHover: red;
+$boxSpacingSmall:0.5rem;
+$boxSpacingMed: 1rem;
+$defaultSize: 1rem;
+
+$boxSizeWidth: 300px;
+$boxSizeHight: 500px;
+
+$brightColor: white;
+$warningColor: red;
+$darkColor: black;
+$mainBGColor: darkgray;
+$secBGColor: rgb(212, 211, 209);
+
+

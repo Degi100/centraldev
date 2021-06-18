@@ -1,0 +1,24 @@
+@use '../../variables' as v;
+
+
+
+.vimninjabelts {
+
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+.vimTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  padding: 6px;
+  text-align: center;
+}
+  .vimTitle :nth-child(1){
+    color: rgb(0, 68, 255);
+
+  }
+  
+
+}

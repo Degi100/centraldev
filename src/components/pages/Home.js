@@ -1,6 +1,5 @@
 import React from "react";
-import "../index.scss";
-// import logo from "./logo.svg";
+import './Home.scss';
 
 export const Home = () => {
   return (
@@ -9,7 +8,6 @@ export const Home = () => {
         <h1>Home</h1>
         <p>
           My first React Project!
-          {/* <img src={logo} alt="React Logo" /> */}
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
-@use '/src/variables' as v;
+@use '../../variables' as v;
 
-
+//Navigationstyle
 ul {
   display: flex;
   li {
@@ -9,17 +9,17 @@ ul {
       display: flex;
       justify-content: space-around;
       flex-direction: left;
-      padding: v.$naviPadding;
-      margin: v.$naviMargin;
-      font-size: v.$naviFontSize;
+      padding: v.$boxSpacingSmall;
+      margin: v.$boxSpacingSmall;
+      font-size: v.$defaultSize;
       text-decoration: none;
     }
     a:hover {
-      color: v.$naviHover;
+      color: v.$warningColor;
     }
   }
 }
 
-.Navigation {
-  background-color: darkorange;
+.navigation {
+  background-color: v.$secBGColor;
 }
