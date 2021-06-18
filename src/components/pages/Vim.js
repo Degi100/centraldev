@@ -1,6 +1,6 @@
 import React from "react";
 import vimninjabelts from "../../data/vimninjabelts.json";
-import '../pages/vim.scss';
+import "../pages/vim.scss";
 
 export const Vim = () => {
   return (
@@ -18,9 +18,7 @@ export const Vim = () => {
                   {/* <p>{belt.tutorial}</p>
                   <p>{belt.howto}</p>
                   <p>{belt.howto}</p> */}
-
                 </div>
-      
               </>
             );
           })}
