@@ -12,6 +12,9 @@ export const Home = () => {
         <h1>Sources</h1>
         <ul>
           <li>
+             <a href="https://www.github.com/Degi100" target="blank">
+              GitHub Repo
+            </a>
             <a href="http://www.trello.com" target="blank">
               Trello
             </a>
