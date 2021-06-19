@@ -30,6 +30,7 @@ export const Home = () => {
             <a href="https://onespace.netlify.app/" target="blank">
               OneSpace
             </a>
+            <a href="https://d01.site/" target="blank">FbW-D01 Class Students Projects D01</a>
             <a href="https://vimninja.netlify.app/" target="blank">
               VIM CSS Layout
             </a>
