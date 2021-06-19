@@ -13,7 +13,7 @@ export const Home = () => {
         <ul>
           <li>
              <a href="https://www.github.com/Degi100" target="blank">
-              GitHub Repo
+              My GitHub Repo's
             </a>
             <a href="http://www.trello.com" target="blank">
               Trello
