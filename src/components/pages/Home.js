@@ -32,7 +32,7 @@ export const Home = () => {
             </a>
             <a href="https://d01.site/" target="blank">FbW-D01 Class Students Projects D01</a>
             <a href="https://vimninja.netlify.app/" target="blank">
-              VIM CSS Layout
+              VIM-Ninja CSS Layout
             </a>
             <a href="https://degidev.netlify.app/" target="blank">
               Degi:Dev

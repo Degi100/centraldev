@@ -6,7 +6,7 @@ export const Vim = () => {
   return (
     <div>
       <div className="layer1">
-        <h1>Vim Nina </h1>
+        <h1>Vim Ninja </h1>
 
         <div className="vimninjabelts">
           {vimninjabelts.white.map((belt) => {

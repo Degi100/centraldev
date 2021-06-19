@@ -30,7 +30,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink exact to="/vim">
-              Vim
+              Vim-Ninja
             </NavLink>
           </li>
         </ul>
