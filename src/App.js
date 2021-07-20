@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home } from './components/pages/Home';
-import { About } from './components/pages/About';
+import { Tutorials } from './components/pages/Tutorials';
 import { Contact } from './components/pages/Contact';
 import { News } from './components/pages/News';
 import { Vim } from './components/pages/Vim';
@@ -19,8 +19,8 @@ function App() {
       	  <Route exact path='/'>
             <Home/>
           </Route>
-          <Route excat path='/about'>
-            <About/>
+          <Route excat path='/tutorials'>
+            <Tutorials />
           </Route>
           <Route exact path='/contact'>
             <Contact/>

@@ -14,8 +14,8 @@ export const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/about">
-              About
+            <NavLink exact to="/tutorials">
+              Tutorials
             </NavLink>
           </li>
           <li>
