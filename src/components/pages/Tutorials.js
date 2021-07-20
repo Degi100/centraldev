@@ -1,5 +1,5 @@
 import React from "react";
-import YoutubeEmbed from "../YoutTubeEmbed/YoutubeEmbed";
+import { ExternalLink } from 'react-external-link';
 
 
 export const Tutorials = () => {
@@ -7,7 +7,8 @@ export const Tutorials = () => {
     <div>
       <div className="layer1">
         <h1>Tutorials</h1>
-        <YoutubeEmbed embed="AbCTlemwZ1k" />
+        <ExternalLink href="https://www.youtube.com/watch?v=NO7_jgzVgbc"> <spawn>
+          Build a Portfolio React and Sanity.io</spawn></ExternalLink> 
         <p>
         </p>
       </div>
