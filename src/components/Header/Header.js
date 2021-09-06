@@ -33,6 +33,11 @@ export const Header = () => {
               Vim-Ninja
             </NavLink>
           </li>
+          <li>
+            <NavLink exact to="/myrepos">
+              MyRepos
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>

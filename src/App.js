@@ -6,10 +6,10 @@ import { Contact } from './components/pages/Contact';
 import { News } from './components/pages/News';
 import { Vim } from './components/pages/Vim';
 import { Header } from './components/Header/Header';
-
-
+import { MyRepos } from './components/pages/MyRepos';
 
 import './App.scss';
+
 function App() {
   return (
     <div className="App">
@@ -30,6 +30,9 @@ function App() {
           </Route>
           <Route exact path='/vim'>
             <Vim/>
+          </Route>
+          <Route exact path='/myRepos'>
+            <MyRepos/>
           </Route>
         </Switch>
       </BrowserRouter>
