@@ -9,29 +9,24 @@ ul {
     rgb(7, 151, 218) 0%,
     rgb(35, 146, 168) 100%
   );
+  width: 100%;
   li {
     display: flex;
     list-style: none;
 
     a {
+      display: flex;
       color: rgb(0, 0, 0);
       font-weight: bold;
-      display: flex;
-      flex-direction: left;
-      padding: v.$boxSpacingSmall;
       margin: v.$boxSpacingSmall;
-      font-size: v.$boxSpacingMed;
+      margin: 1vw;
+      font-size: 1rem;
       text-decoration: none;
     }
     a:hover {
       color: white;
     }
   }
-}
-
-.navigation {
-  background-color: v.$secBGColor;
-  box-shadow: 5px 4px 4px black;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,13 +40,14 @@ ul {
       rgba(2, 0, 36, 1) 0%,
       rgb(7, 151, 218) 0%,
       rgb(35, 146, 168) 100%
-      );
-      align-items: center;
+    );
+    align-items: center;
 
     li {
       color: black;
     }
     a {
+      display: flex;
     }
   }
 }

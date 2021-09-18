@@ -4,8 +4,9 @@ import './Header.scss';
 import { AiFillHome} from "react-icons/ai";
 import { RiCodeBoxFill } from "react-icons/ri";
 import { DiVim } from "react-icons/di";
-
-
+import { AiFillGithub } from "react-icons/ai";
+import { IoMdContact } from "react-icons/io";
+import { BsBookHalf } from "react-icons/bs"
 
 export const Header = () => {
   return (
@@ -14,32 +15,32 @@ export const Header = () => {
         <ul>
           <li>
             <NavLink exact to="/">
-              <AiFillHome /> Home 
+              <AiFillHome />. Home 
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/tutorials">
-              <RiCodeBoxFill /> Tutorials
+              <RiCodeBoxFill />. Tutorials
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/contact">
-              Contact
+             <IoMdContact />. Contact
             </NavLink>
           </li>          
           <li>
             <NavLink exact to="/news">
-              News
+              <BsBookHalf />. News
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/vim">
-              <DiVim />  Vim-Ninja
+              <DiVim />. Vim-Ninja
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/myrepos">
-              MyRepos
+             <AiFillGithub />. MyRepos
             </NavLink>
           </li>
         </ul>
