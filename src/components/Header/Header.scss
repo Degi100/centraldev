@@ -10,10 +10,11 @@ ul {
     rgb(35, 146, 168) 100%
   );
   width: 100%;
+
   li {
     display: flex;
     list-style: none;
-
+    padding-top: 3rem;
     a {
       display: flex;
       color: rgb(0, 0, 0);
@@ -33,22 +34,20 @@ ul {
   ul {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items:center;
     background: rgb(2, 0, 36);
     background: linear-gradient(
       163deg,
       rgba(2, 0, 36, 1) 0%,
       rgb(7, 151, 218) 0%,
       rgb(35, 146, 168) 100%
-    );
-    align-items: center;
-    
-    li {
+      );
+      
+      li {
+      justify-content: center;
       color: black;
-      margin: 0.2rem;
+      padding: 0.3rem;
     }
-    a {
-      display: flex;
-    }
+  
   }
 }
