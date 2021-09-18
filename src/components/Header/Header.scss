@@ -2,19 +2,26 @@
 
 ul {
   display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    163deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(7, 151, 218) 0%,
+    rgb(35, 146, 168) 100%
+  );
   li {
+    display: flex;
     list-style: none;
+
     a {
-      color: blue;
+      color: rgb(0, 0, 0);
       font-weight: bold;
       display: flex;
-      justify-content: space-around;
       flex-direction: left;
       padding: v.$boxSpacingSmall;
       margin: v.$boxSpacingSmall;
       font-size: v.$boxSpacingMed;
       text-decoration: none;
-  
     }
     a:hover {
       color: white;
@@ -27,3 +34,24 @@ ul {
   box-shadow: 5px 4px 4px black;
 }
 
+@media screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      163deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(7, 151, 218) 0%,
+      rgb(35, 146, 168) 100%
+      );
+      align-items: center;
+
+    li {
+      color: black;
+    }
+    a {
+    }
+  }
+}

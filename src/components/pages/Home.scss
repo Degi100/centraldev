@@ -34,11 +34,7 @@
 
   a:hover {
     color: rgb(8, 173, 250);
+    font-weight: bold;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .App {
-    background-color: rgb(70, 157, 238);
-  }
-}
