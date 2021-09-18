@@ -1,21 +1,23 @@
 @use '../../variables' as v;
 
-//Navigationstyle
 ul {
   display: flex;
   li {
     list-style: none;
     a {
+      color: blue;
+      font-weight: bold;
       display: flex;
       justify-content: space-around;
       flex-direction: left;
       padding: v.$boxSpacingSmall;
       margin: v.$boxSpacingSmall;
-      font-size: v.$defaultSize;
+      font-size: v.$boxSpacingMed;
       text-decoration: none;
+  
     }
     a:hover {
-      color: v.$warningColor;
+      color: white;
     }
   }
 }

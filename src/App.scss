@@ -1,5 +1,9 @@
 @use 'reset.scss';
+@use './variables' as v;
+
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: v.$mainBGColor;
 }
+

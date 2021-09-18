@@ -1,6 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Header.scss';
+import { AiFillHome} from "react-icons/ai";
+import { RiCodeBoxFill } from "react-icons/ri";
+import { DiVim } from "react-icons/di";
+
 
 
 export const Header = () => {
@@ -10,12 +14,12 @@ export const Header = () => {
         <ul>
           <li>
             <NavLink exact to="/">
-              Home 
+              <AiFillHome /> Home 
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/tutorials">
-              Tutorials
+              <RiCodeBoxFill /> Tutorials
             </NavLink>
           </li>
           <li>
@@ -30,7 +34,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink exact to="/vim">
-              Vim-Ninja
+              <DiVim />  Vim-Ninja
             </NavLink>
           </li>
           <li>

@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.scss";
-
 import { ExternalLink } from 'react-external-link';
 
-export const Home = () => {
+
+export const Home = () => { 
   return (
     <div>
       <div className="layer1">
-        <h1>Home</h1>
+        <h1>Home </h1>
         <p>My first React Project!</p>
       </div>
       <div className="layer2">
@@ -28,7 +28,6 @@ export const Home = () => {
         <h1>External Links</h1>
               <ExternalLink href="https://onespace.netlify.app/"><spwan>OneSpace by Edward T.</spwan></ExternalLink>
           <ExternalLink href="https://d01.site/"><spwan>D01-Site</spwan></ExternalLink>
-
   </div>
     </div>
   );
