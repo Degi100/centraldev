@@ -42,6 +42,12 @@
     h1 {
       font-size: 1.2rem;
     }
+
+    .allLayers{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
     .layer1,
     .layer2 {
       display: flex;
