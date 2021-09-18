@@ -1,6 +1,5 @@
 @use '../../variables' as v;
 
-
 .App {
   h1 {
     font-size: v.$fontSizeH1;
@@ -40,8 +39,7 @@
 
 @media screen and (max-width: 600px) {
   .App {
-
-    h1{
+    h1 {
       font-size: 1.2rem;
     }
     .layer1,
@@ -58,15 +56,11 @@
 
       span {
         font-size: 0.8rem;
-        
       }
 
       span:hover {
         text-decoration: underline;
       }
-      
     }
-
-  }  
-
+  }
 }

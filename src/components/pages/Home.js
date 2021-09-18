@@ -11,19 +11,18 @@ export const Home = () => {
       </div>
       <div className="layer2">
         <h1>GitHub Links</h1>
-        <div>
-          <ExternalLink href="https://www.github.com/Degi100">
-            <span>My GitHub</span>
-          </ExternalLink>
-          <ExternalLink href="https://github.com/FbW-D01">
-            <span>D01 Github</span>
-          </ExternalLink>
-          <ExternalLink href="https://github.com/Entwickler-Club/dpodreact">
-            <span>Datapod Project</span>
-          </ExternalLink>
-        </div>
+
+        <ExternalLink href="https://www.github.com/Degi100">
+          <span>My GitHub</span>
+        </ExternalLink>
+        <ExternalLink href="https://github.com/FbW-D01">
+          <span>D01 Github</span>
+        </ExternalLink>
+        <ExternalLink href="https://github.com/Entwickler-Club/dpodreact">
+          <span>Datapod Project</span>
+        </ExternalLink>
       </div>
-      
+
       <div className="layer2">
         <h1>Projects</h1>
         <ExternalLink href="https://vimninja.netlify.app/">
