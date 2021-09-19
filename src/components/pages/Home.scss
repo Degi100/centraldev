@@ -37,9 +37,6 @@
 
 @media screen and (max-width: 582px) {
   .App {
-    h1 {
-      font-size: 1.2rem;
-    }
 
     .allLayers{
       display: flex;
@@ -68,9 +65,10 @@
       }
 
       .layer1 {
-        background-color: rgb(16, 71, 122);
         padding: 1px;
       }
+     
+     
     }
   }
 
