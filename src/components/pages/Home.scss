@@ -12,13 +12,11 @@
 
 .layer1,
 .layer2 {
-  margin: v.$boxSpacingMed;
+  margin: 10px ;
   padding: v.$boxSpacingMed;
-  width: max-content;
-  height: max-content;
+  width: max-content ;
   height: max-content;
   border: solid 1px v.$darkColor;
-  box-shadow: 5px 5px 4px v.$darkColor;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
@@ -53,7 +51,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 250px;
         margin: 0.2rem;
         padding: 0.5rem;
         box-shadow: none;
