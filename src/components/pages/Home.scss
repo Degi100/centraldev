@@ -14,8 +14,8 @@
 .layer2 {
   margin: v.$boxSpacingMed;
   padding: v.$boxSpacingMed;
-  width: v.$boxSizeWidth;
-  height: v.$boxSizeHight;
+  width: max-content;
+  height: max-content;
   height: max-content;
   border: solid 1px v.$darkColor;
   box-shadow: 5px 5px 4px v.$darkColor;

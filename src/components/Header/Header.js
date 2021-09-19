@@ -29,8 +29,8 @@ export const Header = () => {
             </NavLink>
           </li>          
           <li>
-            <NavLink exact to="/news">
-              <BsBookHalf />. News
+            <NavLink exact to="/todoes">
+              <BsBookHalf />. Todo Reminder
             </NavLink>
           </li>
           <li>

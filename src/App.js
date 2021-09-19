@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home } from './components/pages/Home';
 import { Tutorials } from './components/pages/Tutorials';
 import { Contact } from './components/pages/Contact';
-import { News } from './components/pages/News';
+import { Todoes } from './components/pages/Todoes';
 import { Vim } from './components/pages/Vim';
 import { Header } from './components/Header/Header';
 import { MyRepos } from './components/pages/MyRepos';
@@ -25,8 +25,8 @@ function App() {
           <Route exact path='/contact'>
             <Contact/>
           </Route>
-           <Route exact path='/news'>
-            <News/>
+           <Route exact path='/todoes'>
+            <Todoes/>
           </Route>
           <Route exact path='/vim'>
             <Vim/>
