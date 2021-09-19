@@ -30,7 +30,7 @@ export const Header = () => {
           </li>          
           <li>
             <NavLink exact to="/todoes">
-              <BsBookHalf />. Todo Reminder
+              <BsBookHalf />. Taskmanager
             </NavLink>
           </li>
           <li>

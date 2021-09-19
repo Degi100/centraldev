@@ -1,5 +1,5 @@
 import React from "react";
-import "./todos.scss";
+import "./todos.scss"; 
 
 const ToDo = () => {
   const [todos, setTodos] = React.useState([]);
@@ -60,7 +60,6 @@ const ToDo = () => {
 
   return (
     <div id="todo-list">
-      <h1>Todo List</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -106,7 +105,7 @@ export const Todoes = () => {
   return (
     <div>
       <div className="layer1">
-        <h1>Todoes</h1>
+        <h1>Taskmanager</h1>
         <p><ToDo /></p>
       </div>
     </div>
