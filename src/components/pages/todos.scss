@@ -92,10 +92,15 @@
     justify-content: space-between;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 582px) {
     #todo-list {
       width: max-content;
       margin: 2px;
+    }
+    .todo-app{
+      display: flex;
+      justify-content: left;
+      flex-direction: left;
     }
     input[type="text"] {
       font-size: 20px;

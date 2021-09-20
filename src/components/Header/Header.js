@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './Header.scss';
-import { AiFillHome} from "react-icons/ai";
+import "./Header.scss";
+import { AiFillHome } from "react-icons/ai";
 import { RiCodeBoxFill } from "react-icons/ri";
 import { DiVim } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 import { IoMdContact } from "react-icons/io";
-import { BsBookHalf } from "react-icons/bs"
+import { BsBookHalf } from "react-icons/bs";
 
 export const Header = () => {
   return (
@@ -15,32 +15,35 @@ export const Header = () => {
         <ul>
           <li>
             <NavLink exact to="/">
-              <AiFillHome />. Home 
+              <div className="react-icon">
+                <AiFillHome />
+              </div>
+              Home
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/tutorials">
-              <RiCodeBoxFill />. Tutorials
+             <div className="react-icon"> <RiCodeBoxFill /></div> Tutorials
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/contact">
-             <IoMdContact />. Contact
+             <div className="react-icon"> <IoMdContact /></div> Contact
             </NavLink>
-          </li>          
+          </li>
           <li>
             <NavLink exact to="/todoes">
-              <BsBookHalf />. Taskmanager
+             <div className="react-icon"> <BsBookHalf /></div>Taskmanager
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/vim">
-              <DiVim />. Vim-Ninja
+             <div className="react-icon"> <DiVim /></div> Vim-Ninja
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/myrepos">
-             <AiFillGithub />. MyRepos
+             <div className="react-icon"> <AiFillGithub /></div> MyRepos
             </NavLink>
           </li>
         </ul>
