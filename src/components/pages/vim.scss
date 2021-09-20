@@ -1,18 +1,29 @@
 @use '../../variables' as v;
 
-.layer2 {
-  width:300px;
+.layerYellow,
+.layerWhite {
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
 }
 .vimninjabelts {
+  // display: flex;
+  // flex-direction: column;
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
 
   .vimTitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6px;
+    // display: flex;
+    // flex-direction: column;
+    justify-content: left;
     text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .command {
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow;
   }
   .vimTitle :nth-child(1) {
     color: rgb(0, 68, 255);

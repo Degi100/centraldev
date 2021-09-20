@@ -1,34 +1,3 @@
-{
-  "white": [
-    {
-      "idCode": "enterAndExit",
-      "name": "Enter and Exit VIM",
-      "learnItems": "Commandline VIM and VSCode Plugin",
-      "youtube": "AMmYOrV7Z2Q"
-    },
-    {
-      "idCode": "normalAndInsertMode",
-      "name": "Normal and Insert Mode",
-      "learnItems": "i and ESC",
-      "youtube": "0OMG632mRzs"
-    },
-    {
-      "idCode": "basicMovements",
-      "name": "Basic Movements",
-      "learnItems": "h,j,k,l",
-      "youtube": "uv1QqEEk77M"
-    },
-    {
-      "idCode": "insertCommands",
-      "name": "Insert Commands",
-      "learnItems": "i, I, a, A, o, O",
-      "youtube": "aGgaqdJf-2U"
-    }
-  ]
-}
-
-
-
 
 {
   "belts": {

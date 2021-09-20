@@ -14,6 +14,14 @@
   h1 {
     font-size: v.$fontSizeH1;
     font-weight: bold;
+    padding: 5px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      163deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(9, 74, 112) 0%,
+      rgb(35, 146, 168) 100%
+    )
   }
 }
 .layer2 {
@@ -25,9 +33,9 @@
   margin-bottom: 10px;
   text-decoration: none;
   h2 {
-     font-size: v.$fonzSizeH2;
-     font-weight: bold;
-   } 
+    font-size: v.$fonzSizeH2;
+    font-weight: bold;
+  }
   a {
     color: rgb(0, 0, 0);
     padding: 4px;
