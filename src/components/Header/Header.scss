@@ -1,15 +1,18 @@
 @use '../../variables' as v;
 
+.navigation {
+  .nav {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      163deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(9, 74, 112) 0%,
+      rgb(35, 146, 168) 100%
+    );
+  }
+}
 ul {
   display: flex;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    163deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgb(7, 151, 218) 0%,
-    rgb(35, 146, 168) 100%
-  );
-  width: 100%;
 
   li {
     display: flex;
@@ -31,23 +34,20 @@ ul {
 }
 
 @media screen and (max-width: 583px) {
+  .navigation {
+    .nav {
+      background-color: red;
+      width: 900px;
+    }
+  }
   ul {
     display: flex;
     flex-direction: column;
-    align-items:left;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      163deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgb(7, 151, 218) 0%,
-      rgb(35, 146, 168) 100%
-      );
-      
-      li {
-      justify-content: center;
+
+    li {
+      justify-content: left;
       color: black;
       padding: 0.3rem;
     }
-  
   }
 }

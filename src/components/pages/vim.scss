@@ -1,5 +1,8 @@
 @use '../../variables' as v;
 
+.layer1 {
+  width:400px;
+}
 .vimninjabelts {
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
@@ -9,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 6px;
-    text-align: center;
+    text-align: left;
   }
   .vimTitle :nth-child(1) {
     color: rgb(0, 68, 255);
