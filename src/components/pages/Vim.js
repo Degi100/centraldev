@@ -1,5 +1,6 @@
 import React from "react";
 import vimninjabelts from "../../data/vimninjabelts.json";
+import ReactPlayer from 'react-player'
 import "./vim.scss";
 
 export const Vim = () => {
@@ -15,6 +16,7 @@ export const Vim = () => {
               <div className={`vimTitle`}>
                 <p>{belt.title}</p>
                 <p className="command">{belt.command}</p>
+                <p className="player"><ReactPlayer url={belt.tutorial} /></p>
               </div>
             );
           })}
