@@ -1,18 +1,17 @@
 import React from "react";
-import "./Home.scss";
 import { ExternalLink } from "react-external-link";
+import "./Main.scss";
 
 export const Home = () => {
   return (
     <div>
       <div className="allLayers">
-        <div className="layer1">
-          <h1>Home </h1>
-          <p>My first React Project!</p>
+        <div className="layer-headline">
+          <h1>Home</h1>
         </div>
-        <div className="layer2">
-          <h1>GitHub Links</h1>
 
+        <div className="layer2">
+          <h2>GitHub Links</h2>
           <ExternalLink href="https://www.github.com/Degi100">
             <span>My GitHub</span>
           </ExternalLink>
@@ -25,7 +24,7 @@ export const Home = () => {
         </div>
 
         <div className="layer2">
-          <h1>Projects</h1>
+          <h2>Projects</h2>
           <ExternalLink href="https://vimninja.netlify.app/">
             <span>VIM NINJA CSS LAYOUT</span>
           </ExternalLink>
@@ -38,7 +37,7 @@ export const Home = () => {
         </div>
 
         <div className="layer2">
-          <h1>External Links</h1>
+          <h2>External Links</h2>
           <ExternalLink href="https://onespace.netlify.app/">
             <span>OneSpace by Edward T.</span>
           </ExternalLink>

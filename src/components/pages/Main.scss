@@ -1,0 +1,40 @@
+@use '../../variables' as v;
+
+.allLayers {
+  display: flex;
+  flex-direction: column;
+}
+
+.layer-headline {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 10px;
+  h1 {
+    font-size: v.$fontSizeH1;
+    font-weight: bold;
+  }
+}
+.layer2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  h2 {
+     font-size: v.$fonzSizeH2;
+     font-weight: bold;
+   } 
+  a {
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    text-decoration: none;
+    span:hover {
+      color: rgb(8, 173, 250);
+      font-weight: bold;
+    }
+  }
+}

@@ -1,15 +1,16 @@
 import React from 'react'
+import "./Main.scss";
 
 
 export const Contact = () => {
   return (
     <div>
-      <div className="layer1">
+      <div className="layer-headline">
         <h1>Contact</h1>
-        <p>
-          Contact Me
-        </p>
-      </div>
+        </div>
+       <div className="layer2"> 
+         <span> Contact Me</span>
+        </div>
     </div>
   );
 };

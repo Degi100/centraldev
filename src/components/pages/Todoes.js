@@ -1,5 +1,9 @@
 import React from "react";
-import "./todos.scss"; 
+import "./todos.scss";
+import { GrFormAdd } from "react-icons/gr";
+import { BsFillTrashFill } from "react-icons/bs";
+import { AiFillEdit } from "react-icons/ai";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 const ToDo = () => {
   const [todos, setTodos] = React.useState([]);
@@ -65,8 +69,12 @@ const ToDo = () => {
           type="text"
           onChange={(e) => setTodo(e.target.value)}
           value={todo}
+          placeholder="Input Task"
         />
-        <button type="submit">Add Todo</button>
+
+        <button type="submit">
+          <GrFormAdd />
+        </button>
       </form>
       {todos.map((todo) => (
         <div key={todo.id} className="todo">
@@ -80,6 +88,7 @@ const ToDo = () => {
             {todo.id === todoEditing ? (
               <input
                 type="text"
+                placeholder={todo.text + " Edit"}
                 onChange={(e) => setEditingText(e.target.value)}
               />
             ) : (
@@ -88,12 +97,18 @@ const ToDo = () => {
           </div>
           <div className="todo-actions">
             {todo.id === todoEditing ? (
-              <button onClick={() => submitEdits(todo.id)}>Submit Edits</button>
+              <button onClick={() => submitEdits(todo.id)}>
+                <AiFillCheckCircle />
+              </button>
             ) : (
-              <button onClick={() => setTodoEditing(todo.id)}>Edit</button>
+              <button onClick={() => setTodoEditing(todo.id)}>
+                <AiFillEdit />
+              </button>
             )}
 
-            <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+            <button onClick={() => deleteTodo(todo.id)}>
+              <BsFillTrashFill />
+            </button>
           </div>
         </div>
       ))}
@@ -104,9 +119,13 @@ const ToDo = () => {
 export const Todoes = () => {
   return (
     <div>
-      <div className="layer-todo">
+      <div className="layer-headline">
         <h1>Taskmanager</h1>
-        <div className="todo-app"><ToDo /></div>
+        </div>
+        <div className="layer-todo">
+          <div className="todo-app">
+          <ToDo />
+          </div>
       </div>
     </div>
   );

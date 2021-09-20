@@ -4,10 +4,12 @@ import "./vim.scss";
 
 export const Vim = () => {
   return (
-    <div>
-      <div className="layer1">
+    <>
+      <div className="layer-headline">
         <h1>Vim Ninja </h1>
-
+        </div>
+        <div className="layer2">
+        
         <div className="vimninjabelts">
           {vimninjabelts.white.map((belt) => {
             return (
@@ -15,15 +17,16 @@ export const Vim = () => {
                 <div className={`vimTitle`}>
                   <p>{belt.title}</p>
                   <p>{belt.command}</p>
-                  {/* <p>{belt.tutorial}</p>
-                  <p>{belt.howto}</p>
-                  <p>{belt.howto}</p> */}
-                </div>
+                  <p>{belt.tutorial}</p>
+                   <p>{belt.howto}</p>
+               
+                    </div>
+  
               </>
             );
           })}
         </div>
-      </div>
-    </div>
+        </div>
+      </>
   );
 };

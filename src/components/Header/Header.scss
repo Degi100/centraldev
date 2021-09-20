@@ -1,6 +1,6 @@
 @use '../../variables' as v;
 
-.navigation {
+body {
   .nav {
     background: rgb(2, 0, 36);
     background: linear-gradient(
@@ -10,6 +10,19 @@
       rgb(35, 146, 168) 100%
     );
   }
+}
+
+.navigation {
+  margin-left: 5px;
+  // .nav {
+  //   background: rgb(2, 0, 36);
+  //   background: linear-gradient(
+  //     163deg,
+  //     rgba(2, 0, 36, 1) 0%,
+  //     rgb(9, 74, 112) 0%,
+  //     rgb(35, 146, 168) 100%
+  //   );
+  // }
 }
 ul {
   display: flex;
@@ -34,12 +47,13 @@ ul {
 }
 
 @media screen and (max-width: 583px) {
-  .navigation {
-    .nav {
-      background-color: red;
-      width: 900px;
-    }
-  }
+  // .navigation {
+  //   .nav {
+  //     display: flex;
+  //     background-color: red;
+  //     width: 350px;
+  //  } 
+  // }
   ul {
     display: flex;
     flex-direction: column;
