@@ -104,9 +104,9 @@ const ToDo = () => {
 export const Todoes = () => {
   return (
     <div>
-      <div className="layer1">
+      <div className="layer-todo">
         <h1>Taskmanager</h1>
-        <p><ToDo /></p>
+        <div className="todo-app"><ToDo /></div>
       </div>
     </div>
   );
