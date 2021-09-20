@@ -5,6 +5,11 @@
   width: 300px;
   margin: 10px;
 }
+.title:hover{
+  background-color: rgba(255, 255, 0, 0.15);
+  cursor: pointer;
+
+}
 .vimninjabelts {
   // display: flex;
   // flex-direction: column;
@@ -25,8 +30,11 @@
     background-color: yellow;
     font-size:1rem ;
   }
+  .command:hover{
+    font-size: 2rem;
+  }
   .vimTitle :nth-child(1) {
-    color: rgb(0, 0, 0);
+    color: rgb(37, 89, 167);
     font-size: 2rem;
 
   }

@@ -14,7 +14,7 @@ export const Vim = () => {
           {vimninjabelts.white.map((belt) => {
             return (
               <div className={`vimTitle`}>
-                <p>{belt.title}</p>
+                <p className="title">{belt.title}</p>
                 <p className="command">{belt.command}</p>
                 <p className="player"><ReactPlayer url={belt.tutorial} /></p>
               </div>
