@@ -3,7 +3,6 @@
 .layerYellow,
 .layerWhite {
   width: 300px;
-  border: 1px solid black;
   margin: 10px;
 }
 .vimninjabelts {
@@ -24,9 +23,12 @@
     font-weight: bold;
     text-align: center;
     background-color: yellow;
+    font-size:1rem ;
   }
   .vimTitle :nth-child(1) {
-    color: rgb(0, 68, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+
   }
   
   .player {
