@@ -23,27 +23,42 @@ export const Header = () => {
           </li>
           <li>
             <NavLink exact to="/tutorials">
-             <div className="react-icon"> <RiCodeBoxFill /></div> Tutorials
+              <div className="react-icon">
+                <RiCodeBoxFill />
+              </div>
+              Tutorials
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/contact">
-             <div className="react-icon"> <IoMdContact /></div> Contact
+              <div className="react-icon">
+                <IoMdContact />
+              </div>
+              Contact
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/todoes">
-             <div className="react-icon"> <BsBookHalf /></div>Taskmanager
+              <div className="react-icon">
+                <BsBookHalf />
+              </div>
+              Taskmanager
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/vim">
-             <div className="react-icon"> <DiVim /></div> Vim-Ninja
+              <div className="react-icon">
+                <DiVim />
+              </div>
+              Vim
             </NavLink>
           </li>
           <li>
             <NavLink exact to="/myrepos">
-             <div className="react-icon"> <AiFillGithub /></div> MyRepos
+              <div className="react-icon">
+                <AiFillGithub />
+              </div>
+              MyRepos
             </NavLink>
           </li>
         </ul>
