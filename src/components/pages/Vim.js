@@ -1,7 +1,6 @@
 import React from "react";
 import vimninjabelts from "../../data/vimninjabelts.json";
 import ReactPlayer from 'react-player'
-import { RiMovieLine } from "react-icons/ri"
 import "./vim.scss";
 
 export const Vim = () => {
