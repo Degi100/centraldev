@@ -1,18 +1,38 @@
-import React from "react";
-import { ExternalLink } from "react-external-link";
-import "./Main.scss";
+import React, { useState } from "react";
+import { AddUser } from "../AddUser/AddUser";
+import { Todoes } from '../pages/Todoes'
+import "./tutorials.scss";
 
 export const Tutorials = () => {
+  const [showAddUserForm, setShowAddUserForm] = useState(false);
+  const [showTodoApp, setShowTodoApp] = useState(false);
+
   return (
     <div>
       <div className="layer-headline">
         <h1>Tutorials</h1>
-      </div>
-      <div className="layer2">
-        <ExternalLink href="https://www.youtube.com/watch?v=NO7_jgzVgbc">
-          <span>Build a Portfolio React and Sanity.io</span>
-        </ExternalLink>
-      </div>
+        </div>
+        
+        <div className="addUser">Add-User-Form</div>
+        {showAddUserForm ? (
+          <div>
+          <AddUser />
+          </div>
+          ) : null}
+          <button onClick={() => setShowAddUserForm(!showAddUserForm)}>
+          Show 
+          </button>
+          
+          <div className="todos">todo-app</div>
+          {showTodoApp ? (
+            <div>
+            <Todoes />
+            </div>
+            ) : null}
+            <button onClick={() => setShowTodoApp(!showTodoApp)}>
+            Show 
+            </button>
+            
     </div>
   );
 };
