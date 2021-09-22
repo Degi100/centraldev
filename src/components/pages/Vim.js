@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import vimninjabelts from "../../data/vimninjabelts.json";
 import ReactPlayer from 'react-player'
 import "./vim.scss";
 
 export const Vim = () => {
-  const [showvideo, setShowVideo] = useState(false);
 
   return (
     <div>
@@ -39,7 +38,6 @@ export const Vim = () => {
               </div>
             );
           })}
-          <div className="flex"></div>
         </div>
       </div>
     </div>
