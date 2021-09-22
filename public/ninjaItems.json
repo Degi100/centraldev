@@ -1,0 +1,12 @@
+[
+	{
+		"category": "vim",
+		"belt": "white",
+		"idCode": "changeInnerWord",
+		"language": "english",
+		"title": "change word cursor is on",
+		"shortSolution": "ciw",
+		"longSolution": "put the cursor anywhere on a word and type `ciw`",
+		"youtubeVideo": ""
+	}
+]
