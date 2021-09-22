@@ -1,6 +1,6 @@
 import { React, useState, useRef, useEffect } from "react";
 import "./adduser.scss";
-import initialUsers from "../../data/showcaseUsers.json";
+import initialUsers from "../../../data/showcaseUsers.json";
 
 export const AddUser = () => {
   const [users, setUsers] = useState(initialUsers);
@@ -87,7 +87,7 @@ export const AddUser = () => {
         />
         </td>
         <td>
-        <button onClick={handleAddUser}>Add User</button>
+        <label onClick={handleAddUser}>Add User</label>
         
         </td>
         </tr>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AddUser } from "../AddUser/AddUser";
+import { AddUser } from "../tutorials/AddUser/AddUser";
 import { Todoes } from "../pages/Todoes";
 import "./tutorials.scss";
 
@@ -11,23 +11,20 @@ export const Tutorials = () => {
     <div>
       <div className="layer-headline">
         <h1>Tutorials</h1>
+        <div className="tut-subnavi">
+          {showAddUserForm && <AddUser />}
+          <label onClick={() => setShowAddUserForm(!showAddUserForm)}>
+            <span>Add User Form</span>
+          
+            </label>
+          {showTodoApp && (
+            <div>
+              <Todoes />
+            </div>
+          )}
+          <label onClick={() => setShowTodoApp(!showTodoApp)}><span>Todo App</span></label>
+        </div>
       </div>
-
-      <div className="addUser">Add-User-Form</div>
-      {showAddUserForm && (
-        <div>
-          <AddUser />
-        </div>
-      )}
-      <button onClick={() => setShowAddUserForm(!showAddUserForm)}>Show</button>
-
-      <div className="todos">todo-app</div>
-      {showTodoApp && (
-        <div>
-          <Todoes />
-        </div>
-      ) }
-      <button onClick={() => setShowTodoApp(!showTodoApp)}>Show</button>
     </div>
   );
 };

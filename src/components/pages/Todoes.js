@@ -72,9 +72,9 @@ const ToDo = () => {
           placeholder="Input Task"
         />
 
-        <button type="submit">
+        <label type="submit">
           <GrFormAdd />
-        </button>
+        </label>
       </form>
       {todos.map((todo) => (
         <div key={todo.id} className="todo">
@@ -97,18 +97,18 @@ const ToDo = () => {
           </div>
           <div className="todo-actions">
             {todo.id === todoEditing ? (
-              <button onClick={() => submitEdits(todo.id)}>
+              <label onClick={() => submitEdits(todo.id)}>
                 <AiFillCheckCircle />
-              </button>
+              </label>
             ) : (
-              <button onClick={() => setTodoEditing(todo.id)}>
+              <label onClick={() => setTodoEditing(todo.id)}>
                 <AiFillEdit />
-              </button>
+              </label>
             )}
 
-            <button onClick={() => deleteTodo(todo.id)}>
+            <label onClick={() => deleteTodo(todo.id)}>
               <BsFillTrashFill />
-            </button>
+            </label>
           </div>
         </div>
       ))}
