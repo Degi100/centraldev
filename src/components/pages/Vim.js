@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import vimninjabelts from "../../data/vimninjabelts.json";
 import ReactPlayer from 'react-player'
 import "./vim.scss";
 
 export const Vim = () => {
+  const [showvideo, setShowVideo] = useState(false);
+
   return (
     <div>
       <div className="layer-headline">
@@ -11,9 +13,8 @@ export const Vim = () => {
           type="text"
            placeholder="Search VIM "
         /> </h1>
-       
-
       </div>
+
       <div className="layerWhite">
         <div className="vimninjabelts">
           {vimninjabelts.white.map((belt) => {
@@ -21,7 +22,7 @@ export const Vim = () => {
               <div className={`vimTitle`}>
                 <p className="title">{belt.title} </p>
                 <p className="command">{belt.command}</p>
-                <p className="player"><ReactPlayer url={belt.tutorial}/> </p>
+                 <p className="player"><ReactPlayer url={belt.tutorial}/> </p>
               </div>
             );
           })}
