@@ -2,5 +2,6 @@
 
 ## Sass
 ## React-icons
-## React-Player
+## React-youTube Player
 ## react-external-link
+## react-video https://video-react.js.org/components/player/
