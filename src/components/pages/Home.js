@@ -7,7 +7,7 @@ export const Home = () => {
     <div>
       <div className="allLayers">
         <div className="layer-headline">
-          <h1>Home</h1>
+          <h1>Home to go</h1>
         </div>
 
         <div className="layer2">
